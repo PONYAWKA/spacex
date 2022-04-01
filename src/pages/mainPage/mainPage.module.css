@@ -1,4 +1,7 @@
 .Header{
-    height: 64px;
-    margin-bottom: 20px;
+background-color: #191D24;
+   position: fixed;
+   width: 100%;
+   z-index: 1;
+   height: 64px;
 }
