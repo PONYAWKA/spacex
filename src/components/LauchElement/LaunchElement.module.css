@@ -1,5 +1,6 @@
 .Element
 {
+    box-sizing: border-box;
     min-width: 280px;
     border: solid 2px ;
     border-radius: 20px;
@@ -30,7 +31,7 @@
     flex-direction: row;
 }
 .Element__Time{
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .Element__image{
     max-height: 100px;
