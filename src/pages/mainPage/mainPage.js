@@ -6,7 +6,9 @@ import style from "./mainPage.module.css";
 export const MainPage = () => {
   return (
     <div>
-      <Header />
+      <div className={style.Header}>
+        <Header />
+      </div>
       <MainContent />
     </div>
   );
