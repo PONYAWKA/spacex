@@ -1,0 +1,49 @@
+.Element
+{
+    min-width: 320px;
+    border: solid 2px ;
+    border-radius: 20px;
+    background-color: #0f203f;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.Element__line{
+    color: rgb(168, 162, 162);
+    width: 90%;
+    margin-left: 50px;
+}
+.Element__lineContainer{
+    display: flex;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.Element__name{
+    color: rgb(247, 238, 223);
+    font-size: 36px;
+}
+.Element__DateConteiner{
+    display: flex;
+    flex-direction: row;
+}
+.Element__Time{
+    margin-left: 20px;
+}
+.Element__image{
+    max-height: 100px;
+    position: absolute;
+    left: -40px;
+    top: -40px;
+}
+.Element__Header{
+    margin-left: 60px;
+}
+.Element__DetailsContainer{
+    margin-left: 50px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    margin-right: 6px ;
+}

@@ -1,0 +1,29 @@
+.MainContent{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(400px, 1fr) );
+}
+.You{
+    font-size: 100px;
+    text-align: center;
+}
+.Loader__Container{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+width: 100%;
+height: 20vh;
+}
+@media (max-width: 1279px) {
+    .MainContent {
+        grid-template-columns: 1fr 1fr; 
+        grid-gap: 0;
+    }
+  }
+  @media (max-width: 768px) {
+    .MainContent {
+         grid-template-columns: 1fr; 
+         grid-gap: 0;
+    }
+  }
+ 
