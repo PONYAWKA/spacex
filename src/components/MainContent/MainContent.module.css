@@ -2,6 +2,10 @@
     display: grid;
     grid-template-columns: repeat( auto-fit, minmax(400px, 1fr) );
 }
+.Filler
+{
+    height: 80px;
+}
 .You{
     font-size: 100px;
     text-align: center;

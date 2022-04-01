@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import style from "./LaunchElement.module.css";
+import Rocket from "../../img/Rocket.svg";
 export const LaunchElement = ({ data }) => {
   const name = data.name;
   const status = data.success;
-  const Path = data.links.patch.small;
+  const Path = data.links.patch.small || Rocket;
   const date = data.date_local.split("T");
-  
+
   const dateYear = date[0].split("-").map((e) => `${e} `);
   const dateHour = date[1].split("-")[0];
 

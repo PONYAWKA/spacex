@@ -41,6 +41,7 @@ export const MainContent = () => {
 
   return (
     <section>
+      <div className={style.Filler}/>
       <div className={style.MainContent}>
         {!loader && launches
           ? launches.map((Launch, index) => (
