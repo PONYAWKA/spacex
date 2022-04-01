@@ -1,13 +1,13 @@
 .Element
 {
-    min-width: 320px;
+    min-width: 280px;
     border: solid 2px ;
     border-radius: 20px;
     background-color: #0f203f;
     display: flex;
     flex-direction: column;
     position: relative;
-    margin-left: 50px;
+    margin-left: 40px;
     margin-top: 40px;
     margin-right: 20px;
 }
@@ -46,4 +46,10 @@
     margin-top: 8px;
     margin-bottom: 10px;
     margin-right: 6px ;
+}
+@media (max-width:600px) {
+    .Element{
+        margin-left: 12vw;
+    }    
+
 }

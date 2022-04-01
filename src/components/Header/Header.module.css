@@ -1,11 +1,15 @@
 .Header{
     width: 100%;
     background-color: #191D24;
+    min-height: 64px;
 }
 .Header__image{
-    max-width: 384px;
+
     width: 100%;
+    max-width: 384px;
     margin: 5px 0;
     margin-left: 4px;
-
+}
+.Header__Filler{
+    width:  20px;
 }

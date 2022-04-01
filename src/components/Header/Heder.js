@@ -10,6 +10,7 @@ export const Header = () => {
         className={style.Header__image}
         alt="loading"
       />
+      <div className={style.Header__Filler}></div>
     </header>
   );
 };
